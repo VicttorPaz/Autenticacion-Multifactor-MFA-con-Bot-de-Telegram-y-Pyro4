@@ -24,7 +24,6 @@ Servicio de inicio de sesión en dos pasos. El usuario escribe su contraseña, e
 - [Uso](#uso)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Cómo funciona](#cómo-funciona)
-- [Notas de seguridad](#notas-de-seguridad)
 - [Capturas de pantalla](#capturas-de-pantalla)
 
 ## Descripción general
@@ -241,10 +240,9 @@ Después de cualquier error distinto de un código incorrecto, el cliente termin
 ├── servidor.py       # Servicio de autenticación, envío por Telegram, expiración y bloqueo
 ├── cliente.py        # Pide usuario, contraseña y código, y muestra el resultado
 ├── excepciones.py    # Las cinco excepciones propias compartidas por servidor y cliente
-└── README.md         # Este archivo
 ```
 
-[COMPLETAR: agrega aquí otros archivos si la carpeta tiene más]
+
 
 ## Cómo funciona
 
@@ -290,14 +288,14 @@ servidor.py ->  cliente.py:  True
 
 Name Server y servidor en ejecución:
 
+<img width="1043" height="151" alt="imagen" src="https://github.com/user-attachments/assets/ff3aabbe-1cf3-4971-886e-9f538d19a28f" />
 
-
-![alt text](image.png)
 
 Cliente pidiendo el código y recibiendo el acceso:
 
-![Cliente en ejecución](docs/[COMPLETAR]-cliente.gif)
+<img width="764" height="153" alt="WhatsApp Image 2026-11-07 at 7 52 14 PM" src="https://github.com/user-attachments/assets/8166eb47-689e-44bb-bbc6-560a9aac475a" />
+
 
 Mensaje con el código en Telegram:
 
-![Código recibido en Telegram](docs/[COMPLETAR]-telegram.png)
+<img width="721" height="606" alt="imagen" src="https://github.com/user-attachments/assets/23bbc043-9e42-425c-a180-3532cb10e59a" />
